@@ -84,8 +84,6 @@ if __name__ == "__main__":
 
 
 
-
-
 '''
 <link rel="icon"
       type="image/ico"
