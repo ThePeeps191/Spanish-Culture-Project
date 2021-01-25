@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Sources
+{% endblock %}
+
+{% block content %}
+<center>
+	<h1>Peru Website - Sources</h1>
+</center>
+<h3>
+	<ul>
+		<li><a href="/sources/home">Home Page Source</a></li>
+		<li><a href="/sources/geography">Geography Page Source</a></li>
+		<li><a href="/sources/festivals">Festivals Page Source</a></li>
+		<li><a href="/sources/facts">Facts Page Source</a></li>
+		<li><a href="/sources/list-of-cities">List of Cities Page Source</a></li>
+		
+		
+</h3>
+<script src="{{ url_for('static', filename='Scripts/JS/source.js') }}"></script>
+{% endblock %}

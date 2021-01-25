@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Web Links
+{% endblock %}
+
+{% block content %}
+<center>
+	<h1>Peru Website - Web Links</h1>
+
+<h2>Some other websites you can go to to learn about <b>Peru</b> are:</h2></center>
+<h3>
+	<ul>
+		<li><a  target="_blank"href="https://en.wikipedia.org/wiki/Peru">Wikipedia</a></li>
+		<li><a  target="_blank"href="https://www.britannica.com/place/Peru">Britannica</a></li>
+		<li><a  target="_blank"href="https://www.lonelyplanet.com/peru">Lonely Planet</a></li>
+		<li><a  target="_blank"href="https://kids.nationalgeographic.com/explore/countries/peru/">National Geographic Kids</a></li>
+		
+</h3>
+<script src="{{ url_for('static', filename='Scripts/JS/weblinks.js') }}"></script>
+{% endblock %}

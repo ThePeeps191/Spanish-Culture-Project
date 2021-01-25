@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Sources - Geography
+{% endblock %}
+
+{% block content %}
+<center>
+	<h1>Peru Website - Sources - Geography</h1>
+</center>
+<h3>
+	<ul>
+	<li><a href="https://en.wikipedia.org/wiki/Geography_of_Peru" target="_blank">Wikipedia</a></li>
+	<li><a href="https://kids.nationalgeographic.com/explore/countries/peru/#:~:text=Peru%20is%20one%20of%20the,of%20the%20world%27s%20poorest%20countries." target="_blank">National Geographic Kids</a></li>
+	<li><a href="https://www.lonelyplanet.com/maps/south-america/peru/" target="_blank">Peru Map Image</a></li>
+	</ul>
+</h3>
+
+<script src="{{ url_for('static', filename='Scripts/JS/sources/geography.js') }}"></script>
+{% endblock %}

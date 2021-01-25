@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Geography
+{% endblock %}
+
+{% block content %}
+
+<center>
+	<h1>Peru Website - Geography</h1>
+	<h3>Main Geography</h3>
+</center>
+<p> Peru is a country in the Central Western coast of South America. It shares its borders with Ecuador, Colombia, Brazil, Bolivia, and Chile. Peru has a land mass of about 1,380,000 km² (532,821 mi²). Another thing about Peru's geography is that it lies entirely in the Southern Hemisphere. The forests and woodland in peru account for 66% of the landscape. Mountains, beaches, deserts, and rain forests make up the rest of it. Peru is the third largest country in South America, after Brazil and Argentina.</p>
+<center>
+	<h3>Natural Disasters/Hazards</h3>
+</center>
+<p> Natural disasters that can occur in Peru include earthquakes, tsunamis, flooding, landslides and, sometimes, volcanic activity.<p>
+<center>
+	<h3>Natural Resources</h3>
+</center>
+<p> Peru has some of the most natural resources out of all the countries in the world. Some of its natural resources include:
+<ul>
+	<li>Gold</li>
+	<li>Silver</li>
+	<li>Copper</li>
+	<li>Zinc</li>
+	<li>Lead</li>
+	<li>Iron</li>
+	<li>Oil & Natural Gas</li>
+</ul>
+<p> Although Peru has so much resources, jobs there can be very hard to find and Peru, sadly, still remains as one of the world's poorest countries.</p>
+<center>
+	<h3>Cities In Peru</h3>
+</center>
+<p> Peru has many cities. You can get a list of them <a href="/list-of-cities">HERE</a>.</p>
+
+<img src="{{ url_for('static', filename='map_of_peru2.png') }}" alt="Peru Geography Image">
+<p>The Map Of Peru</p>
+
+<script src="{{ url_for('static', filename='Scripts/JS/geography.js') }}"></script>
+{% endblock %}

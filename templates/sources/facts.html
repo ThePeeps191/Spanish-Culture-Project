@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Sources - Facts
+{% endblock %}
+
+{% block content %}
+<center>
+	<h1>Peru Website - Sources - Facts</h1>
+</center>
+<h3>
+	<ul>
+	<li><a href="https://www.macrotrends.net/countries/PER/peru/population-growth-rate#:~:text=The%20current%20population%20of%20Peru,a%201.18%25%20increase%20from%202020." target="_blank">MacroTrends</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Peru" target="_blank">Wikipedia</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/President_Of_Peru" target="_blank">Wikipedia - President Of Peru</a></li>
+	</ul>
+</h3>
+<script src="{{ url_for('static', filename='Scripts/JS/sources/facts.js') }}"></script>
+{% endblock %}

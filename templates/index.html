@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}
+Peru Website - Home
+{% endblock %}
+
+{% block content %}
+<center>
+	<h1>Peru Website - Home</h1>
+	<p>Welcome to the home page of my Peru website! I coded this page for a school project, as you probably already know. Feel free to check it out! To access the pages, you can use the navbar, which is above this text.</p>
+</center>
+<img src="{{ url_for('static', filename='peru_war_flag_image.png') }}" alt="Peru Flag Image" style="width:250px;height:150px;border:2px solid #000000;">
+<p> The Peruvian Flag</p>
+
+<script src="{{ url_for('static', filename='Scripts/JS/index.js') }}"></script>
+{% endblock %}
